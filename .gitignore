@@ -28,7 +28,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Jupyter Notebooks
+# Jupyter
 .ipynb_checkpoints/
 *.ipynb
 
@@ -51,34 +51,19 @@ wheels/
 *.flv
 *.m4v
 
-# Models
-models/
-*.pth
-*.pt
-*.h5
-
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.DS_Store
+Thumbs.db
 
 # Logs
 logs/
 *.log
 
-# Environment variables
+# Environment
 .env
 .env.local
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Large files
-*.dcm
-*.nii
-*.nii.gz
-*.tif
-*.tiff
