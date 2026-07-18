@@ -1,0 +1,29 @@
+{
+  "model_name": "DenseNet121_Pneumonia",
+  "timestamp": "20260619_2156",
+  "architecture": "DenseNet121",
+  "img_size": 224,
+  "batch_size": 32,
+  "epochs_phase1": 10,
+  "epochs_phase2": 13,
+  "optimal_threshold": 0.46999999999999986,
+  "class_indices": {
+    "NORMAL": 0,
+    "PNEUMONIA": 1
+  },
+  "test_metrics": {
+    "accuracy": 0.8633,
+    "auc_roc": 0.9389,
+    "f1_optimal": 0.8582,
+    "sensitivity": 0.8386,
+    "specificity": 0.8844,
+    "precision": 0.8787,
+    "TP": 478,
+    "TN": 505,
+    "FP": 66,
+    "FN": 92
+  },
+  "train_samples": 9126,
+  "val_samples": 1109,
+  "test_samples": 1141
+}
